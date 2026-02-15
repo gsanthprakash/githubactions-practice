@@ -11,9 +11,21 @@ jobs:
         run: echo hello world
 
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: building done here
         run: echo building
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: testing done here
+        run: echo testing
+
+  deploy:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: deploying the application
+        run: echo deploying
 
     
