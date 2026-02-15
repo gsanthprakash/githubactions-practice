@@ -26,6 +26,6 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: deploying the application
-        run: echo deploying
+        run: echo deploying 
 
     
