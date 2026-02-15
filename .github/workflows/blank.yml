@@ -1,0 +1,9 @@
+name: sample_workflow
+
+on:
+  workflow_dispath:
+
+jobs:
+  name: Hello World
+  runs-on: ubuntu:latest
+    echo "hello World"
