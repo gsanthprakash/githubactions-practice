@@ -1,9 +1,11 @@
 name: sample_workflow
 
 on:
-  workflow_dispath:
+  workflow_dispatch:
 
 jobs:
-  name: Hello World
-  runs-on: ubuntu:latest
-    echo "hello World"
+  hello_word:
+      runs-on: ubuntu:latest
+      steps:
+        - name: printing hello-world
+          run: echo "Hello World"
