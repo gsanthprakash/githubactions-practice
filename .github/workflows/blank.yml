@@ -1,11 +1,11 @@
-name: sample_workflow
+name: welcoke_to_github
 
 on:
   workflow_dispatch:
 
 jobs:
-  hello_word:
-      runs-on: ubuntu-latest
-      steps:
-        - name: printing hello-world
-          run: echo "Hello World"
+  hello_world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printing hello world
+        run: echo hello world
