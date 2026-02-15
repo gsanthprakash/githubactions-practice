@@ -9,3 +9,11 @@ jobs:
     steps:
       - name: printing hello world
         run: echo hello world
+
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: building done here
+        run: echo building
+
+    
