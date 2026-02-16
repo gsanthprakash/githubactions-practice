@@ -27,7 +27,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-24.04
-    needs: test
+    needs: test 
     steps:
       - name: deploying the application
         run: echo deploying 
