@@ -1,7 +1,6 @@
 name: welcoke_to_github
 
-on:
-  workflow_dispatch:
+on: Push
 
 jobs:
   hello_world:
