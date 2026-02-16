@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: printing hello world
-        run: echo hello world
+        run: echo hello world park
 
   build:
     runs-on: ubuntu-latest
